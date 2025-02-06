@@ -1,6 +1,10 @@
 package _02_colors.VennDiagram;
 
-import processing.core.PApplet;
+import processing.core.PApplet; 
+import processing.core.PImage; 
+  
+// Creating a class which extends 
+// the PApplet class 
 
 public class VennDiagramOfMe extends PApplet {
 
