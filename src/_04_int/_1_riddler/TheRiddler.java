@@ -22,23 +22,24 @@ public class TheRiddler {
 				score++;
 				String answer2 = JOptionPane.showInputDialog("How many of each species did Moses take on the ark with him?");
 				if (answer2.equals("Moses wasn't on the Ark, Noah was"));
-				JOptionPane.showMessageDialog(null, "Correct!");
-				score++;
-				String answer3 = JOptionPane.showInputDialog("Alive without breath,\n" +//
-									"As cold as death;\n" +//
-									"Never thirsty, ever drinking,\n" +//
-									"All in mail never clinking.\n");
+					JOptionPane.showMessageDialog(null, "Correct!");
+					score++;
+					String answer3 = JOptionPane.showInputDialog("Alive without breath,\n" +//
+										"As cold as death;\n" +//
+										"Never thirsty, ever drinking,\n" +//
+										"All in mail never clinking.\n");
 				if (answer3.equals("Fish"));
-				JOptionPane.showMessageDialog(null, "Correct!");
-				score++;
-			}
-			else{
+					JOptionPane.showMessageDialog(null, "Correct!");
+					score++;
+				}
+				else{
 				JOptionPane.showMessageDialog(null, "NOOP >:)");
 			}
 		// 4. If they got the answer right, pop up "correct!" and increase the score by one
 
 		// 5. Otherwise, say "wrong" and tell them the answer
-
+		JOptionPane.showMessageDialog(null, "This is your score: "+ score);
+	
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
